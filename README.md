@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# artstore
+
+
+### Sections ###
+
+1. About section - contains information about art store.
+2. Items sections - List of all the art which can be bought from this store.
+3. Image gallery section - List of images in grid displaying all the famous art present in store.
+4. Location section - map which is displaying location of art store.
+5. Contact us field in footer

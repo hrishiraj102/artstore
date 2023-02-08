@@ -1,0 +1,36 @@
+.h1Css {
+    color: #dfdad5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bodytxt {
+    color: #dfdad5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img1 {
+
+    height: 400px;
+    max-width: 90%;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+
+
+
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .component {
+    opacity: 1;
+    
+  }
+  
+  
