@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/artstore/static/css/main.621f33f8.css",
+    "main.js": "/artstore/static/js/main.d19fdd46.js",
+    "static/js/787.e9c31899.chunk.js": "/artstore/static/js/787.e9c31899.chunk.js",
+    "index.html": "/artstore/index.html",
+    "main.621f33f8.css.map": "/artstore/static/css/main.621f33f8.css.map",
+    "main.d19fdd46.js.map": "/artstore/static/js/main.d19fdd46.js.map",
+    "787.e9c31899.chunk.js.map": "/artstore/static/js/787.e9c31899.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.621f33f8.css",
+    "static/js/main.d19fdd46.js"
+  ]
+}
