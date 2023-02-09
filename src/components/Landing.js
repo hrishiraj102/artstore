@@ -16,11 +16,11 @@ function Landing() {
 
     return (
 
-        <Box
+        <Box width="100%" 
 
         >
 
-            <Grid width="100%" height="810px" sx={{ backgroundColor: "#967e2c" }} >
+            <Grid height="810px" sx={{ backgroundColor: "#967e2c" }} >
                 <Typography variant="h2" sx={{ fontSize: 100, paddingTop: 8, letterSpacing: "2px",fontFamily:"fantasy"}} className="h1Css" >
                     Arorai
                 </Typography>
@@ -28,19 +28,24 @@ function Landing() {
                 <hr style={{ display: "blox", borderWidth: 0, color: "#dfdad5", marginTop: 10, opacity: 100, backgroundColor: "#dfdad5" }} />
                 <Grid
                     item
-                    xs={1}
-                    sm={2}
+                    xs={12}
+                    sm={6}
+
                     sx={{
                         display: "flex",
                         flexDirection: "row",
+                        justifyContent:"center"
+                        
 
                     }}
                 >
-                    <Grid sx={{ borderRight: "1px solid #dfdad5", mt: -2, mb:-2,width: "50%", overflow: "hidden", height: "610px" }} >
+                    
+                    <Grid sx={{ borderRight: "1px solid #dfdad5", mt: -2, mb:-2,width: "50%", overflow: "hidden", height: "610px" ,flexWrap:"wrap" }} >
 
                         <img src="./artback1.jpeg" alt="astheticview" className="img1" />
 
                     </Grid>
+                    
                     <Grid sx={{ width: "50%" }} className={"container"}>
 
                         {
