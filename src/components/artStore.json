@@ -63,5 +63,43 @@
             "price": "$200",
             "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
         }
+    ],
+    "photos":[
+        {
+            "id":1,
+            "imgname": "img1",
+            "link": "https://www.nezine.com/upload/userfiles/image/Benu%20Misra%20Art%20/last%20supper.jpg"
+
+        },
+        {
+            "id":2,
+            "imgname": "img2",
+            "link": "https://themindsjournal.com/wp-content/uploads/2021/04/Caption-This-30-April-2021.jpg"
+
+        },
+        {
+            "id":3,
+            "imgname": "img3",
+            "link": "https://static.boredpanda.com/blog/wp-content/uploads/2017/03/8-Labyrinth-of-thoughts-58b688c3eef0e__700.jpg"
+
+        },
+        {
+            "id":4,
+            "imgname": "img4",
+            "link": "https://miro.medium.com/v2/resize:fit:1000/format:webp/1*MOKgz9b3pH2t956ImfHI3w.jpeg"
+
+        },
+        {
+            "id":5,
+            "imgname": "img1",
+            "link": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/504a3e55516947.598836aa6ea8b.jpg"
+
+        },
+        {
+            "id":6,
+            "imgname": "img1",
+            "link": "https://drawpaintacademy.com/wp-content/uploads/2021/01/Claude-Monet-Woman-With-a-Parasol-1875.jpg.webp"
+
+        }
     ]
 }
