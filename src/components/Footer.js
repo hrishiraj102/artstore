@@ -1,5 +1,6 @@
 import { Button, Container, Grid, TextField, Typography } from "@mui/material";
 import { Box } from "@mui/system";
+import Mapcontainer from './Mapcontainer';
 
 
 function Footer() {
@@ -54,10 +55,15 @@ function Footer() {
                             </Typography>
 
 
+                            <Grid sx={{ml:3,mt:2}}>
+                        <Mapcontainer/>
+                        </Grid>
+
 
 
 
                         </Grid>
+                        
 
 
 

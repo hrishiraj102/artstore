@@ -4,6 +4,7 @@ import Landing from './components/Landing';
 import Items from './components/Items';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
       <Items />
 
       <Footer/>
+      
 
     </div>
   );
