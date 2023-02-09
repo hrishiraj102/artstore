@@ -20,23 +20,23 @@ function Landing() {
 
         >
 
-            <Grid width="100%" height="800px" sx={{ backgroundColor: "#967e2c" }} >
-                <Typography variant="h2" sx={{ fontSize: 100, paddingTop: 8, letterSpacing: "2px" }} className="h1Css" >
+            <Grid width="100%" height="810px" sx={{ backgroundColor: "#967e2c" }} >
+                <Typography variant="h2" sx={{ fontSize: 100, paddingTop: 8, letterSpacing: "2px",fontFamily:"fantasy"}} className="h1Css" >
                     Arorai
                 </Typography>
 
                 <hr style={{ display: "blox", borderWidth: 0, color: "#dfdad5", marginTop: 10, opacity: 100, backgroundColor: "#dfdad5" }} />
                 <Grid
                     item
-                    xs={12}
-                    sm={6}
+                    xs={1}
+                    sm={2}
                     sx={{
                         display: "flex",
                         flexDirection: "row",
 
                     }}
                 >
-                    <Grid sx={{ borderRight: "1px solid white", mt: -2, width: "50%", overflow: "hidden", height: "610px" }} >
+                    <Grid sx={{ borderRight: "1px solid #dfdad5", mt: -2, mb:-2,width: "50%", overflow: "hidden", height: "610px" }} >
 
                         <img src="./artback1.jpeg" alt="astheticview" className="img1" />
 
@@ -56,10 +56,11 @@ function Landing() {
 
                         {showText &&
 
-                            <Grid className={"component"}>
+                            <Grid className={`component ${showText ? "show" : ""}`}>
 
-                                <Typography variant="h6" className="bodytxt" sx={{ textAlign: "left", ml: 5, mt: 5, width: "90%", letterSpacing: "3px" }}> We are the group of painters from India. We have collections of varity of canvas which
-                                    are painted by our club member. Our artist are famous for their masterpices in the country. This is our online art store. You can order from the collections we have for you.
+                                <Typography variant="h6" className="bodytxt" sx={{ textAlign: "left", ml: 5, mt: 2, width: "90%", letterSpacing: "3px" }}> We are the group of painters from India. We have collections of varity of canvas which
+                                    are painted by our club members. Our artist are famous for their masterpices in the country. This is our online art store. You can order from the collections we have for you. You can visit our place for more 
+                                    arts and exhibition.
                                 </Typography>
                             </Grid>
 

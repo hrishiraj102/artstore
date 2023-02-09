@@ -1,6 +1,7 @@
 .h1Css {
     color: #dfdad5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .bodytxt {
@@ -26,11 +27,16 @@
 .container {
     display: grid;
     grid-template-columns: 1fr;
-  }
-  
-  .component {
+}
+
+.component {
+    opacity: 0;
+    transition: opacity 5.3s ease-out;
+
+
+}
+
+.component.show {
+    transition: opacity 5.3s ease-out;
     opacity: 1;
-    
-  }
-  
-  
+}
